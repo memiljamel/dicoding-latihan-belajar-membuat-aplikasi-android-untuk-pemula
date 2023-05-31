@@ -1,13 +1,14 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
 }
 
 android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.dicoding.barvolume"
+        applicationId "com.dicoding.myintentapp"
         minSdk 22
         targetSdk 33
         versionCode 1
